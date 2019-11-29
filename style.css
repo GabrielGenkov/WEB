@@ -1,0 +1,73 @@
+body{
+	background-color: dodgerblue;
+}
+
+h1{
+	text-align: center;
+}
+
+.site-wrapper{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.cars, footer{
+	display: flex;
+	flex-direction: row;
+	list-style-type: none;
+}
+
+.cars > li, .option > p{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #7FFF00;
+	font-size: 25px;
+	font-weight: bold;
+	font-family: Cambria; 
+	height: 100px;
+	width: 100%;
+}
+
+.cars > li{
+	text-align:center;
+}
+
+.cars > li:hover{
+	background-color: #7c20c7;
+	cursor: pointer;
+}
+
+.cars > ul{
+	text-align:center;
+}
+
+.main{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+
+.car{
+	background: white;
+	box-shadow: 5px 5px 20px;
+	margin: 10px;
+}
+
+.car > img{
+	width: 550px;
+	height: 400px;
+}
+
+.car > p{
+	width: 550px;
+	text-align: center;
+	font-family: Cambria;
+	font-size: 20px; 
+}
+
+.option > p:hover{
+	background-color: #7c20c7;
+	cursor: pointer;
+}
